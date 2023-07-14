@@ -1,0 +1,54 @@
+.ms-auto{
+    /* margin-right: 10px !important; */
+    font-weight: bold;
+}
+.backgrund{
+    width: 100%;
+    height: 800px;
+    background-image: url("./img/laptop\ backgroundjpg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%  100%;
+
+}
+.backgrund h1{
+    padding-top: 300px;
+    font-size: 60px;
+}
+.backgrund button{
+    border: 2px solid white;
+    background-color: transparent;
+    width: 200px;
+    height: 40px ;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.hover:hover{
+    box-shadow: 0.1px 0.1px 5px 0.5px black;
+    box-sizing: border-box;
+}
+.boxshadow{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+.scroller{
+    width: 100%;
+    height: 100px;
+    /* margin-left: 20%; */
+    /* padding-left: 200px; */
+}
+.scroll1{
+    float: left;
+}
+.scroll1 img{
+    width: 200px;
+    height: 100px;
+}
+@media (max-width:600px) {
+    .backgrund h1{
+        /* padding-top: 300px; */
+        font-size: 30px;
+    }
+    .details{
+        text-align: center;
+    }
+}
